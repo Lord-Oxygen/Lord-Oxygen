@@ -39,10 +39,9 @@ body{
 }
 
 .kommentar_box{
-	padding: 0.1%;
+	padding: 0.25%;
 	display: inline-block;
 	min-width:100%;
-	min-height:100%;
 	background:#ECEFF1;
 	border-radius:0.5em;
 	border-bottom-left-radius: 0;
@@ -60,4 +59,8 @@ body{
 /*
 	position: relative;
 */
+}
+
+.ganzer_Kommentar{
+	margin-top: 1%;
 }
