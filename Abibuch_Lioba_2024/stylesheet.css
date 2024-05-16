@@ -14,6 +14,10 @@ td{
 
 body{
 	background-color:#FFFFFF;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
 /*	font-family: bootstrap-icons !important;
 	font-style: normal;
 	font-weight: normal !important;
@@ -28,54 +32,69 @@ body{
 h1{
 	padding: 0px;
 	margin: 0px;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 4em;
 }
 
+#namen_liste{
+	font-size: 2em;
+	text-align: center;
+}
+a:visited{
+	color: #0000ee;
+}
+a:hover{
+	color: red;
+}
 
 .lines_image{
-	min-width: 100%;
-	min-height: 10%;
-	background-repeat: repeat-y;
+	min-height: 5%;
+	background-repeat: repeat-x;
     background-image: url("lines.png");
-    background-size: 100%;
+    background-size: 65em;
 }
-
-
-
-.Benutzer{
-	display: inline-block;
-	padding: 0.1%;
-	text-align: left;
-	color: grey;
-	background-color: #aaa;
-	border-radius:0.5em;
-	border-top-left-radius: 0em;
-	border-top-right-radius: 0em;
-	margin-bottom: 0.1%;
+/*
+#58585a grey
+#cb984c gold
+*/
+.ganzer_Kommentar{
+	margin-top: 1%;
 }
 
 .kommentar_box{
 	padding: 0.25%;
 	display: inline-block;
-	min-width:100%;
-	background:#ECEFF1;
+	min-width:99.5%;
+	background: #58585a;
+	text-align: left;
+
+	border-color: #cb984c;
+	border-width: 0.25em;
+	border-style: solid;
 	border-radius:0.5em;
 	border-bottom-left-radius: 0;
-	background: #aaa;
-	text-align: left;
-/*
-	background: -moz-linear-gradient(top,  #fff 5%, #f1f1f1 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#fff), color-stop(100%,#f1f1f1));
-	background: -webkit-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
-	background: -o-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
-	background: -ms-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
-	background: linear-gradient(top,  #fff 5%,#f1f1f1 100%);
-	box-shadow: 0 16px 10px rgba(0, 0, 0, 0.1);
-*/
-/*
-	position: relative;
-*/
+	
+	color: #EEE;
 }
 
-.ganzer_Kommentar{
-	margin-top: 1%;
+.Benutzer{
+	display: inline-block;
+	padding: 0.1%;
+	margin-top: -0.25em;
+
+	text-align: left;
+	color: #BBB;
+
+	background-color: #58585a;
+	
+	border-radius:0.5em;
+	border-color: #cb984c;
+	border-width: 0.25em;
+	border-style: solid;
+	border-top-style: none;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	border-top-color: #58585a;
 }
