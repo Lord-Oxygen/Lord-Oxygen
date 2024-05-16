@@ -77,12 +77,14 @@ a:hover{
 	border-bottom-left-radius: 0;
 	
 	color: #EEE;
+
+	font-size: 1em;
 }
 
 .Benutzer{
 	display: inline-block;
 	padding: 0.1%;
-	margin-top: -0.25em;
+	margin-top: -0.3em;
 
 	text-align: left;
 	color: #BBB;
@@ -97,4 +99,6 @@ a:hover{
 	border-top-right-radius: 0;
 	border-top-left-radius: 0;
 	border-top-color: #58585a;
+
+	font-size: 1em;
 }
