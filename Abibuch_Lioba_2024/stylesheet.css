@@ -44,18 +44,23 @@ h1{
 	font-size: 2em;
 	text-align: center;
 }
+a{
+	color: black;
+	text-decoration: none;
+}
 a:visited{
-	color: #0000ee;
+	color: black;
 }
 a:hover{
 	color: red;
 }
 
 .lines_image{
-	min-height: 5%;
+	min-height: 4em;
 	background-repeat: repeat-x;
     background-image: url("lines.png");
     background-size: 65em;
+    margin-bottom: 1em;
 }
 /*
 #58585a grey
@@ -103,4 +108,15 @@ a:hover{
 	border-top-color: #58585a;
 
 	font-size: 1em;
+}
+.normal_box{
+	padding: 0.25em;
+
+	background-color: #58585a;
+
+	border-color: #cb984c;
+	border-width: 0.25em;
+	border-style: solid;
+
+	color: #BBB;
 }
