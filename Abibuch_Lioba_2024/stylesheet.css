@@ -38,9 +38,7 @@ h1{
 	font-size: 4em;
 }
 
-#kommentare_link{
-	color: #BBB;
-}
+
 
 #namen_liste{
 	font-size: 2em;
@@ -93,7 +91,7 @@ a:hover{
 .Benutzer{
 	display: inline-block;
 	padding: 0.25%;
-	margin-top: -0.25em;
+	margin-top: -0.35em;
 
 	text-align: left;
 	color: #BBB;
@@ -121,4 +119,11 @@ a:hover{
 	border-style: solid;
 
 	color: #BBB;
+}
+
+#kommentare_link{
+	color: #BBB;
+}
+#kommentare_link:hover{
+	color: #FF474C;
 }
