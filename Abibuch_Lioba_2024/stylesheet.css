@@ -38,7 +38,9 @@ h1{
 	font-size: 4em;
 }
 
-
+#kommentare_link{
+	color: #BBB;
+}
 
 #namen_liste{
 	font-size: 2em;
