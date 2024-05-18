@@ -3,7 +3,7 @@ body{
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-
+	min-width: 2280px;
 /*	font-family: bootstrap-icons !important;
 	font-style: normal;
 	font-weight: normal !important;
@@ -47,6 +47,7 @@ a:hover{
     background-image: url("lines.png");
     background-size: 65em;
     margin-bottom: 1em;
+    width: 100%;
 }
 /*
 #58585a grey
@@ -112,4 +113,36 @@ a:hover{
 }
 #kommentare_link:hover{
 	color: #FF474C;
+}
+
+.alle_fotos{
+	display: flex;
+	flex-direction: column; 
+	flex-wrap: wrap;
+	max-height: 200em;
+	max-width: 100em;
+	min-width: 0;
+	object-fit: cover;
+	/*gap: 10px; platz zwischen den Fotos*/
+}
+
+.ein_foto{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+
+	width: 25%;
+	min-width: 0;
+	object-fit: cover;
+	
+}
+
+img{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+	vertical-align: bottom;
 }
