@@ -110,6 +110,7 @@ a:hover{
 
 #kommentare_link{
 	color: #BBB;
+	text-decoration: underline;
 }
 #kommentare_link:hover{
 	color: #FF474C;
