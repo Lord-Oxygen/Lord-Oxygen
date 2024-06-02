@@ -4,16 +4,7 @@ body{
 	font-weight: 400;
 	font-style: normal;
 	min-width: 480px;
-/*	font-family: bootstrap-icons !important;
-	font-style: normal;
-	font-weight: normal !important;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	background: #FFFFFF/*url(https://images.unsplash.com/photo-1688821999533-b0b719348555?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1254&q=80);
-	background-position: fixed;
-	background-repeat:no-repeat;
-*/
+	margin: 8px;
 }
 h1{
 	padding: 0px;
@@ -55,12 +46,13 @@ a:hover{
 */
 .ganzer_Kommentar{
 	margin-top: 1%;
+	width:98.5%
 }
 
 .kommentar_box{
 	padding: 0.25%;
 	display: inline-block;
-	width:99%;
+	width:100%;
 	background: #58585a;
 	text-align: left;
 
@@ -117,15 +109,23 @@ a:hover{
 }
 
 .box_link_Collagen{
-	width: 1vw;
-	height: 1vw;
-	color: white;
-	background-color: white;
+	width: 0.5vw;
+	height: 0.5vw;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
 	position: fixed;
-	top: 0vw;
-	left: 99vw;
+	top: 0vh;
+	left: 99.5vw;
 }
-
+.box_link_pdf{
+	width: 0.5vw;
+	height: 0.5vw;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 99vh;
+	left: 99.5vw;
+}
 
 .alle_fotos{
 	display: flex;
