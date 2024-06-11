@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>social downloader</title>
+</head>
+<body>
+   <h1>Welcome to the social downloader</h1>
+   <form action="/output" method="POST">
+      <label for="url">Input the url here</label>
+      <input type="text" name="url" id="url" required>
+      <br>
+      <label for="downloader_tpye">Select the downloader</label>
+      <select name="downloader_type" id="downloader_type" required>
+         <option value="youtube_mp3">youtube mp3 downloader</option>
+         <option value="all_youtube_mp3">youtube whole page mp3 downloader (downloads every mp3 to every youtube link on the page; used for profile pages) </option>
+         <option value="instagram_video">instagram video downloader</option>
+      </select><br>
+      <input type="submit" value="submit">
+   </form>
+</body>
+</html>

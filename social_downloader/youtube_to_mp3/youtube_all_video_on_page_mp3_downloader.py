@@ -3,8 +3,10 @@
 # import HTMLSession from requests_html
 from requests_html import HTMLSession
 from bs4 import BeautifulSoup
-from youtube_to_mp3 import download_mp3
-
+if __name__ == '__main__':
+	from youtube_to_mp3 import download_mp3
+else:
+	from youtube_to_mp3.youtube_to_mp3 import download_mp3
 
 
 def get_all_the_links(url):
@@ -28,12 +30,19 @@ def get_all_the_links(url):
 				link_dict["https://www.youtube.com"+watch_link] = True
 				if len(link_dict) > 2:
 					not_done = False
+		resp.session.close()
 	
 	link_list = []
 	for link in link_dict.keys(): link_list.append(link)
 	return link_list
+def page_mp3_youtube_download(url):
+	link_list = get_all_the_links(url)
+	link_downloads = []
+	for link in link_list:
+		link_download = download_mp3(link)
+		link_downloads.append(link_download)
+	return link_downloads
+
 if __name__ == '__main__':
 	url = input("Enter the URL of the page with the videos you want to download\n>>")
-	link_list = get_all_the_links(url)
-	for link in link_list:
-		download_mp3(link)
+	page_mp3_youtube_download(url)

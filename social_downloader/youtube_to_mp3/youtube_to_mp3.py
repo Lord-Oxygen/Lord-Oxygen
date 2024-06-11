@@ -15,19 +15,17 @@ def download_mp3(input_):
         destination = "downloads/"
           
         # download the file 
+
         out_file = video.download(output_path=destination) 
           
-        # save the file 
-        base, ext = os.path.splitext(out_file) 
-        new_file = base + '.mp3'
-        os.rename(out_file, new_file) 
-          
+        
         # result of success 
         print(yt.title + " has been successfully downloaded.")
     
         if input_ == "exit":
             sys.exit()
         if not __name__ == '__main__':
+            return destination + yt.title +".mp3"
             break
 
 if __name__ == '__main__':
