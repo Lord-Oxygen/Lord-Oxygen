@@ -29,6 +29,7 @@ def output():
 @app.route('/downloads_folder')
 def downloads_folder():
 	os.startfile("C:/Users/djm/Documents/GitHub/Lord-Oxygen/social_downloader/downloads")
+	return 
 
 if __name__ == '__main__':
 	app.run(debug=False)
