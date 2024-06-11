@@ -26,5 +26,9 @@ def output():
 
 	return render_template('output.html', link=link_download, real_link = os.getcwd()+"/"+link_download, links=link_downloads)
 
+@app.route('/downloads_folder')
+def downloads_folder():
+	os.startfile("C:/Users/djm/Documents/GitHub/Lord-Oxygen/social_downloader/downloads")
+
 if __name__ == '__main__':
 	app.run(debug=False)
