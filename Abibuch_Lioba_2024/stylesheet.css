@@ -114,8 +114,8 @@ a:hover{
 	color: #FFFFFF;
 	background-color: #000000;
 	position: fixed;
-	top: 0vh;
-	left: 99.5vw;
+	/*top: 0vh;
+	left: 99.5vw;*/
 }
 .box_link_pdf{
 	padding: 0.25%;
@@ -123,8 +123,8 @@ a:hover{
 	color: #FFFFFF;
 	background-color: #000000;
 	position: fixed;
-	top: 99vh;
-	left: 99.5vw;
+	/* top: 99vh;
+	left: 99.5vw;*/
 }
 
 .alle_fotos{
