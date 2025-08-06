@@ -109,8 +109,8 @@ a:hover{
 }
 
 .box_link_Collagen{
-	width: 0.5vw;
-	height: 0.5vw;
+	padding: 0.25%;
+	display: inline-block;
 	color: #FFFFFF;
 	background-color: #FFFFFF;
 	position: fixed;
@@ -118,8 +118,8 @@ a:hover{
 	left: 99.5vw;
 }
 .box_link_pdf{
-	width: 0.5vw;
-	height: 0.5vw;
+	padding: 0.25%;
+	display: inline-block;
 	color: #000000;
 	background-color: #000000;
 	position: fixed;
