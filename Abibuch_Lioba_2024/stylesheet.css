@@ -112,7 +112,7 @@ a:hover{
 	padding: 0.25%;
 	display: inline-block;
 	color: #FFFFFF;
-	background-color: #FFFFFF;
+	background-color: #000000;
 	position: fixed;
 	top: 0vh;
 	left: 99.5vw;
@@ -120,7 +120,7 @@ a:hover{
 .box_link_pdf{
 	padding: 0.25%;
 	display: inline-block;
-	color: #000000;
+	color: #FFFFFF;
 	background-color: #000000;
 	position: fixed;
 	top: 99vh;
