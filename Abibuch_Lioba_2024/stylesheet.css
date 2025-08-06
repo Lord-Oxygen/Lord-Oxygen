@@ -109,22 +109,22 @@ a:hover{
 }
 
 .box_link_Collagen{
-	padding: 0.25%;
-	display: inline-block;
-	color: #FFFFFF;
-	background-color: #000000;
-	position: fixed;
-	/*top: 0vh;
-	left: 99.5vw;*/
+	padding: 0.25em;
+	display: block;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.box_link_Collagen:hover{
+	color: red;
 }
 .box_link_pdf{
-	padding: 0.25%;
-	display: inline-block;
-	color: #FFFFFF;
-	background-color: #000000;
-	position: fixed;
-	/* top: 99vh;
-	left: 99.5vw;*/
+	padding: 0.25em;
+	display: block;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.box_link_pdf:hover{
+	color: red;
 }
 
 .alle_fotos{
