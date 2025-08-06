@@ -109,6 +109,7 @@ a:hover{
 }
 
 .box_link_Collagen{
+	margin: 0.15em;
 	padding: 0.25em;
 	display: block;
 	color: #000000;
@@ -118,6 +119,7 @@ a:hover{
 	color: red;
 }
 .box_link_pdf{
+	margin: 0.15em;
 	padding: 0.25em;
 	display: block;
 	color: #000000;
